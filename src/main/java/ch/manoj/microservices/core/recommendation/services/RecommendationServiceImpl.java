@@ -1,9 +1,9 @@
 package ch.manoj.microservices.core.recommendation.services;
 
-import ch.manoj.api.core.recommendation.Recommendation;
-import ch.manoj.api.core.recommendation.RecommendationService;
-import ch.manoj.api.exceptions.InvalidInputException;
-import ch.manoj.util.http.ServiceUtil;
+import ch.manoj.microservices.api.lib.core.recommendation.Recommendation;
+import ch.manoj.microservices.api.lib.core.recommendation.RecommendationService;
+import ch.manoj.microservices.api.lib.exceptions.InvalidInputException;
+import ch.manoj.microservices.util.lib.http.ServiceUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
